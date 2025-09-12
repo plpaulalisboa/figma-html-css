@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introdução</title>
+        <meta name="description" content="Anotações sobre as aulas de CSS">
+        <meta name="author" content="Paula">
+        <meta name="keywords" content="html, css, java script">
+</head>
+<body>
+    <h1>Anotações das Aulas de CSS</h1>
+<h2>CSS - Cascating Style Sheet (Folhas de Estilo em Cascata)</h2>
+
+<p>O CSS é responsaável por <strong>posicionar os elementos</strong> (colocar elementos lado a lado), vai determinar cor, tamanho e fonte.</p>
+<p>Tudo o que é relacionado a <strong>formatação visual</strong> é de responsabilidade do CSS.</p>
+
+<hr>
+
+<p>Seletor significa que o elemento do HTML eu estou querendo formatar:</p>
+
+<p>seletor { propriedade: valor; }</p>
+<p>Tudo isso é uma declaração de CSS.</p>
+<p>Entre as chaves é uma regra do CSS.</p>
+
+<p> h1 { color: red; }</p>
+
+
+<p>Pode ser composta por mais de uma declaração, por exemplo:</p>
+h1 { color: red;
+    font-size:16px;
+}
+
+<hr>
+<p> <a href="introducaoClasses.html"> introducaoClasses.html</a></p>
+
+<p>Como incluir:</p>
+
+<ul>
+    <li><b>Iline:</b> <p style= "" > ...</p></li>
+<p>Obs.: Prejudica a manutenção do seu site. Pode ser usado pra e-mail Marketing.</p>
+    <li><b>Interno:</b> <style > </style ></li>
+<p>Obs.: Pode ser usada em casos de página única, por exemplo, seu portifólio.</p>
+    <li><b>Externo:</b> <link href = " .css " rel = "stylesheet" > </li>
+<p>Obs.: Essa é a forma que você vai preferir usar em 99% das vezes.</p>
+</ul>
+
+<hr>
+
+<p>O CSS pode ter vários arquivos CSS.</p>
+<p>A vantagem é que se amanhã você precisar fazer alguma manutenção no estilo do seu site será bem mais fácil.</p>
+<p>Quando eu tenho um arquivo CSS externo, eu posso fazer o vínculo em vários arquivos HTML, por exemplo, 50 arquivos HTML, todos eles vão herdar (obedecer) a formatação visual do CSS.</p>
+<p>O estilo Inline vai ter uma prioridade quando o seletor for igual.</p>  
+
+
+</body>
+</html>
